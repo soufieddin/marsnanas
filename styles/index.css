@@ -128,7 +128,7 @@ header .wrapper{
 }
 
 .clients ul li{
-  width:16.6%;
+  width:16.6666%;
 }
 .clients ul li img{
   width: 3rem;
@@ -138,8 +138,10 @@ header .wrapper{
   border: 1px solid yellow;
 }
 @media (min-width: 768px){
-  width: 10rem;
-  height: 10rem;
+  .clients ul li img{
+  width: 11rem;
+  height: 11rem;
+  }
 }
 footer{
   border-top: 1px solid red;
