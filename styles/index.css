@@ -60,7 +60,12 @@ header .wrapper{
   justify-content: space-between;
   align-items: center;
  }
-
+ header .wrapper nav ul li a{
+   transition: all .3s ease-in-out;
+ }
+ header .wrapper nav ul li a:hover{
+   color:red;
+ }
 .hero__wrapper{
   background-image: url('../public/images/hero.png');
   background-repeat: no-repeat;
